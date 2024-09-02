@@ -1,0 +1,198 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 300px;
+    margin: 20px auto;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+.card-body {
+    padding: 15px;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+.card-title {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    color: #333;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* Menampilkan maksimal 2 baris */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+.card-description {
+    color: #777;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* Menampilkan maksimal 2 baris */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 15px;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+.card-price {
+    font-size: 12px;
+    font-weight: 600;
+    color: #f88c91;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+.buy-btn {
+
+    border: 2px solid #f88c91;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 10px 30px;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+.buy-btn:hover {
+    background-color: #f88c91;
+}
+
+/* Extra Small (XS) devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .card {
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-price {
+        font-size: 0.9rem;
+    }
+
+    .buy-btn {
+        padding: 7px 10px;
+    }
+}
+
+/* Small (SM) devices (phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .card {
+        max-width: 100%;
+        margin: 15px;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+    }
+
+    .card-price {
+        font-size: 1rem;
+    }
+
+    .buy-btn {
+        padding: 7px 12px;
+    }
+}
+
+/* Medium (MD) devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .card {
+        max-width: 90%;
+        margin: 20px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card-price {
+        font-size: 1.1rem;
+    }
+
+    .buy-btn {
+        padding: 8px 15px;
+    }
+}
+
+/* Large (LG) devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .card {
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+    }
+
+    .card-price {
+        font-size: 1.2rem;
+    }
+
+    .buy-btn {
+        padding: 8px 15px;
+    }
+}

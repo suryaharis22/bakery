@@ -1,0 +1,946 @@
+/*-----------------------------------------------------------
+
+	* Responsive
+	
+------------------------------------------------------------*/
+
+/* - min-width: 1200px */
+@media (min-width: 1200px) {
+
+    /* - Photo Slider */
+    .photo-slider .carousel-control.left {
+        left: 100px;
+    }
+
+    .photo-slider .carousel-control.right {
+        right: 100px;
+    }
+
+    /* - Team Section */
+    .team-section .carousel-control.left {
+        left: 100%;
+    }
+
+    .team-section .carousel-control.right {
+        right: 100%;
+    }
+
+    /* - Contact Us 2 */
+    .contact-us-2 form {
+        padding: 0 12%;
+    }
+}
+
+/* - min-width: 992 */
+@media (min-width: 992px) {
+
+    /* - Order Section 1 */
+    .order-section.order-section-1 .section-header p {
+        padding: 0 18%;
+    }
+}
+
+/* - min-width: 768 */
+@media (min-width: 768px) {}
+
+/* - max-width: 1800 */
+@media (max-width: 1800px) {
+
+    /* - Menu Section */
+    .menu-section {
+        padding: 0 20px;
+    }
+
+    /* - Menu Section 1 */
+    .menu-section-1 {
+        padding: 0 50px;
+    }
+}
+
+/* - max-width: 1366 */
+@media (max-width: 1366px) {
+
+    /* - Photo Slider 1 */
+    .photo-slider-1 .carousel-caption .slider-content h3 {
+        font-size: 40px;
+    }
+}
+
+/* - max-width: 1365 */
+@media (max-width: 1365px) {
+
+    /* - Menu Section 1 */
+    .menu-section-1 .menu-details-tab .nav>li>a {
+        padding: 20px 42px;
+    }
+}
+
+
+/* - max-width: 1279 */
+@media (max-width: 1279px) {
+
+    /* - Menu Section */
+    .menu-section .menu-box img {
+
+        left: 10px;
+        top: 15px;
+        width: 300px;
+        height: auto;
+    }
+
+    .menu-section .menu-box {
+        padding-right: 20px;
+    }
+
+    .menu-section .menu-box h3 {
+        font-size: 13px;
+    }
+
+    .menu-section .menu-box span {
+        font-size: 12px;
+    }
+
+    /* - Menu Section 1 */
+    .menu-section-1 .menu-box-1 {
+        padding-right: 20px;
+    }
+
+    .menu-section-1 .menu-box-1 h3 {
+        font-size: 13px;
+    }
+
+    .menu-section-1 .menu-box-1 h5 {
+        font-size: 12px;
+    }
+
+    /* - Video Section */
+    .video-link-list {
+        padding: 0 22% 0 28%;
+    }
+}
+
+/* - max-width: 1200px */
+@media (max-width: 1200px) {
+
+    /* - Photo Slider */
+    .photo-slider .carousel-caption {
+        top: 55%;
+    }
+
+    .photo-slider .carousel-caption p {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    /* - Photo Slider 1 */
+    .photo-slider-1 .carousel-caption .slider-content h3 {
+        font-size: 24px;
+        margin-bottom: 12px;
+        margin-top: 5px;
+    }
+
+    .photo-slider-1 .carousel-caption .slider-content p {
+        font-size: 13px;
+    }
+
+    .photo-slider-1 .slider-content {
+        padding: 50px 100px;
+    }
+
+    /* - Order Section */
+    .order-section .right-image {
+        display: none;
+    }
+
+    .order-section .col-md-7 {
+        width: 100%;
+    }
+
+    /* - Latest Blog */
+    .latest-blog .latest-blog-content {
+        padding-left: 85px;
+    }
+
+    .latest-blog .entry-title {
+        font-size: 15px;
+    }
+
+    .latest-blog .post-date {
+        height: 65px;
+        width: 65px;
+    }
+
+    .latest-blog .post-date span {
+        font-size: 28px;
+    }
+
+    .latest-blog .entry-content p {
+        margin-top: 10px;
+    }
+
+    /* - Tab Post */
+    .blog-section .tab-post .nav-tabs>li>a {
+        padding: 8px 15px;
+    }
+
+    /* - Menu Section 1 */
+    .menu-section-1 .menu-details-tab .nav>li>a {
+        padding: 20px 15px;
+    }
+}
+
+/* - min-width: 1201 to max-width: 1365 */
+@media only screen and (min-width: 1201px) and (max-width: 1365px) {
+
+    /* - Order Section */
+    .order-section .right-image {
+        right: -70px;
+    }
+}
+
+/* - min-width: 1200 to max-width: 1366  */
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+
+    /* - Menu Section */
+    .menu-section {
+        padding: 0 35px;
+    }
+
+    .menu-section .menu-box img {
+        max-width: 300px;
+    }
+
+    .menu-section .menu-box {
+        padding: 60px 36px 30px 285px;
+    }
+
+    /* - Menu Section 1 */
+    .menu-section-1 {
+        padding: 0 35px;
+    }
+
+    .menu-section-1 .menu-box-1 {
+        padding: 29px 36px 28px 200px;
+    }
+
+    /* - Gallery Section */
+    .content-block-hover h3 {
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .content-block-hover p {
+        margin-top: 10px;
+        line-height: 18px;
+    }
+}
+
+
+/* - min-width: 992 to max-width: 1199 */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /* - Welcome Section 1 */
+    .welcome-section-1 .mission-content {
+        margin-bottom: 30px;
+    }
+
+    /* - Festival Section */
+    .festival-section .festival-content {
+        margin: 0 18% 100px;
+    }
+
+    /* - Menu Section */
+    .menu-section .menu-box {
+        padding: 22px 22px 40px 165px;
+    }
+
+    .menu-section .menu-box img {
+        max-width: 150px;
+
+        /* padding-right: 10px; */
+        /* margin-right: 50px; */
+        left: 2px;
+        top: 50px;
+    }
+
+    /* - Menu Section 1 */
+    .menu-section-1 .menu-box-1 {
+        padding: 11px 22px 5px 180px;
+    }
+
+    .menu-section-1 .menu-box-1 img {
+        max-width: 128px;
+    }
+
+    .menu-section-1 .menu-box-1 p {
+        margin-bottom: 0;
+        line-height: 22px;
+    }
+
+    /* - Call Out */
+    .call-out .img-box {
+        bottom: -70px;
+    }
+
+    /* - Gallery Section */
+    .portfolio-list li {
+        width: 25%;
+    }
+
+    .portfolio-list li.wide {
+        width: 50%;
+    }
+
+    /* - Video Section */
+    .video-link-list {
+        padding: 0 15% 0 22%;
+    }
+
+    /* - Contact Us 1 */
+    .contact-us-1 .contact-info h3 {
+        font-size: 18px;
+    }
+}
+
+/* - max-width: 991 */
+@media (max-width: 991px) {
+
+    /* - Photo Slider 1 */
+    .photo-slider-1 .slider-content {
+        padding: 20px 32px;
+    }
+
+    .photo-slider-1 .carousel-caption .slider-content a {
+        padding: 13px 26px;
+    }
+
+    /* - Welcome Section */
+    .welcome-section .welcome-header {
+        margin-bottom: 25px;
+    }
+
+    .welcome-section .welcome-header span {
+        font-size: 45px;
+    }
+
+    .welcome-section .welcome-header h5 {
+        font-size: 25px;
+    }
+
+    /* - Welcome Section 1 */
+    .welcome-section-1 .mission-content {
+        margin-bottom: 20px;
+    }
+
+    .welcome-section-1 .mission-content h3 {
+        margin-bottom: 10px;
+        padding-bottom: 15px;
+    }
+
+    .welcome-section-1 .col-sm-7.col-xs-6.wc-img-box {
+        padding-top: 100px;
+    }
+
+    /* - Festival Section */
+    .festival-section .festival-content {
+        margin: 0 10% 100px;
+    }
+
+    /* -- Menu Section */
+    .menu-section .col-sm-6.col-xs-6 {
+        width: 100%;
+    }
+
+    /* - Team Section */
+    .team-section .carousel-control.left {
+        left: -8px;
+    }
+
+    .team-section .carousel-control.right {
+        right: -8px;
+    }
+
+    /* - Counter Section */
+    .counter-box {
+        margin-bottom: 30px;
+    }
+
+    /* - Latest Blog */
+    .latest-blog .col-sm-6.col-xs-6 {
+        margin-bottom: 30px;
+    }
+
+    /* - Blog Post */
+    .comment-section .media-content {
+        margin-left: 10px;
+    }
+
+    .comment-section .media.media-even {
+        margin-left: 20px;
+    }
+
+    .comment-section .media-heading a {
+        padding: 8px;
+    }
+
+    .comment-section .media-heading {
+        font-size: 11px;
+    }
+
+    .comment-section .media-heading span::before {
+        padding: 0 5px;
+    }
+
+    /* - Menu Section 1 */
+    .menu-section-1 .col-sm-6.col-xs-6 {
+        width: 100%;
+    }
+
+    .menu-section-1 .menu-box-1 {
+        padding: 44px 22px 42px 200px;
+    }
+
+    .menu-section-1 .menu-details-tab .nav>li>a {
+        font-size: 11px;
+        padding: 20px 7px;
+    }
+
+    .menu-section-1 .menu-details-tab .nav>li>a:first-of-type {
+        padding-left: 10px;
+    }
+
+    /* - Call Out */
+    .call-out .callout-content p {
+        font-size: 14px;
+    }
+
+    .call-out .img-box {
+        max-width: 250px;
+        bottom: -55px;
+    }
+
+    /* - Gallery Section */
+    .portfolio-list li {
+        width: 33.33333337%;
+    }
+
+    .portfolio-list li.wide {
+        width: 66.66666674%;
+    }
+
+    .gallery-column-4 .portfolio-list li {
+        width: 50%;
+    }
+
+    /* - Video Section */
+    .video-link-list {
+        padding: 0 8% 0 16%;
+    }
+
+    /* - Contact Us 1 */
+    .contact-us-1 .contact-info h3 {
+        font-size: 13px;
+    }
+}
+
+/* - min-width: 768 to max-width: 991 */
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* - max-width: 767 */
+@media (max-width: 767px) {
+
+    /* - Photo Slider */
+    .photo-slider .carousel-caption {
+        top: 50%;
+    }
+
+    .photo-slider .carousel-caption p {
+        font-size: 24px;
+    }
+
+    /* - Photo Slider 1 */
+    .photo-slider-1 .slider-content {
+        padding: 10px 15px;
+    }
+
+    .photo-slider-1 .carousel-caption .slider-content p {
+        margin-bottom: 10px;
+    }
+
+    /* - Welcome Section */
+    .welcome-section .wc-content-box {
+        padding-top: 0;
+    }
+
+    /* - Welcome Section 1 */
+    .welcome-section-1 .col-sm-7.col-xs-6.wc-img-box {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .welcome-section-1 .col-sm-5.col-xs-6 {
+        width: 100%;
+    }
+
+    .welcome-section-1 .mission-content {
+        margin-bottom: 50px;
+    }
+
+    /* - Festival Section */
+    .festival-section .festival-details-tab .nav>li>a i {
+        height: 70px;
+        width: 70px;
+        line-height: 60px;
+    }
+
+    .festival-section .festival-details-tab .nav>li {
+        margin-right: 3px;
+    }
+
+    .festival-section .festival-details-tab .nav>li>a {
+        font-size: 12px;
+    }
+
+    /* - Menu Section */
+    .menu-section .menu-box img {
+        max-width: 200px;
+    }
+
+    .menu-section .menu-box {
+        padding: 30px 30px 30px 230px;
+    }
+
+    /* - Team Section */
+    .team-section .carousel-control {
+        top: 25%;
+    }
+
+    .team-section .carousel-control.left {
+        left: 15px;
+    }
+
+    .team-section .carousel-control.right {
+        right: 15px;
+    }
+
+    .team-section .team-contact-info ul {
+        margin-bottom: 5px;
+    }
+
+    .team-section .team-contact-info p {
+        line-height: 20px;
+    }
+
+    .content-area.col-md-9.col-sm-7.col-xs-12 {
+        margin-bottom: 30px;
+    }
+
+    /* - Widget Categories */
+    .blog-section .widget-categories ul li a {
+        padding-left: 0;
+    }
+
+    /* - Blog Post */
+    .blog-post .comment-form {
+        margin-bottom: 30px;
+    }
+
+    /* - Menu Section 1 */
+    .menu-section-1 .menu-box-1 img {
+        max-width: 200px;
+    }
+
+    .menu-section-1 .menu-box-1 {
+        padding: 30px 30px 30px 200px;
+    }
+
+    .menu-section-1 .menu-details-tab .nav>li {
+        margin-right: 0;
+        width: 50%;
+    }
+
+    .menu-section-1 .menu-details-tab .nav>li::after {
+        display: none;
+    }
+
+    .menu-section-1 .menu-details-tab .nav>li.active>a::after {
+        display: none;
+    }
+
+    /* - Call Out */
+    .call-out .img-box {
+        max-width: 100%;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .call-out .callout-content {
+        float: none;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    /* - Gallery Section */
+    .content-block-hover h3 {
+        padding-bottom: 10px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .content-block-hover p {
+        margin-top: 10px;
+        line-height: 18px;
+    }
+
+    /* - Contact Us 1 */
+    .contact-us-1 .col-xs-6 {
+        width: 100%;
+    }
+
+    .contact-us-1 .col-xs-6.contact-content {
+        width: 50%;
+    }
+}
+
+/* -  max-width: 639 */
+@media (max-width: 639px) {
+
+    /* - Photo Slider */
+    .photo-slider .carousel-caption img {
+        margin-bottom: 15px;
+    }
+
+    .photo-slider .carousel-caption p {
+        font-size: 20px;
+    }
+
+    .photo-slider .carousel-caption a {
+        padding: 10px 20px;
+        margin-top: 5px;
+    }
+
+    /* - Photo Slider 1 */
+    .photo-slider-1 .carousel-caption .slider-content h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .photo-slider-1 .carousel-caption .slider-content p {
+        line-height: 18px;
+    }
+
+    .photo-slider .carousel-caption a {
+        margin-top: 0;
+    }
+
+    .photo-slider-1 .carousel-caption .slider-content a {
+        padding: 13px 20px;
+    }
+
+    /* - Welcome Section */
+    .welcome-section .col-xs-6 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    /* - Menu Section */
+    .menu-section {
+        padding: 0;
+    }
+
+    /* - Team Section */
+    .team-section .col-xs-6 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .team-contact-info {
+        text-align: left;
+    }
+
+    /* - Order Section 1 */
+    .order-section-1 .col-xs-4 {
+        width: 100%;
+    }
+
+    /* - Latest Blog */
+    .latest-blog .col-xs-6 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .latest-blog .post-content {
+        margin: 10px auto 0;
+        max-width: 370px;
+        text-align: left;
+    }
+
+    .blog-section .post-content {
+        max-width: 870px;
+    }
+
+    /* - Menu Section 1 */
+    .menu-section-1 {
+        padding: 0;
+    }
+
+    .menu-section-1 .menu-details-tab .nav-tabs {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /* - Gallery Section */
+    .content-image-block::before {
+        top: 10px;
+        right: 10px;
+        left: 10px;
+        bottom: 10px;
+    }
+
+    .content-block-hover h3 {
+        font-size: 12px;
+        padding-bottom: 8px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .content-block-hover p {
+        padding: 0 20px;
+        margin-top: 5px;
+    }
+
+    .gallery-column-3 .col-md-4.col-sm-4.col-xs-6,
+    .gallery-column-4 .col-md-3.col-sm-3.col-xs-6 {
+        width: 50%;
+    }
+
+    /* - Video Section */
+    .video-link-list {
+        padding: 0 3% 0 6%;
+    }
+}
+
+/* -  max-width: 479 */
+@media (max-width: 479px) {
+
+    /* - Photo Slider */
+    .photo-slider .carousel-caption img {
+        display: none;
+    }
+
+    .photo-slider .carousel-control i {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+    }
+
+    /* - Photo Slider 1 */
+    .photo-slider-1 .carousel-caption .slider-content h3 {
+        font-size: 20px;
+    }
+
+    .photo-slider-1 .carousel-caption .slider-content p {
+        display: none;
+    }
+
+    .photo-slider-1 .carousel-caption .slider-content a {
+        padding: 9px 20px;
+    }
+
+    .photo-slider-1 .carousel-caption .slider-content a.get-started {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    /* - Festival Section */
+    .festival-section .festival-details-tab .nav>li>a {
+        padding: 6px;
+        font-size: 11px;
+    }
+
+    .festival-section .festival-content {
+        padding: 40px;
+    }
+
+    /* - Menu Section */
+    .menu-section .menu-box img {
+        position: static;
+        align-items: center;
+        width: 300px;
+    }
+
+    .menu-section .menu-box {
+        padding: 0;
+
+    }
+
+    /* .menu-section .menu-box img {
+		max-width: 100px;
+	} */
+
+    .menu-section .menu-box span {
+        float: none;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .menu-section .menu-box a {
+        padding: 10px 30px;
+    }
+
+    /* - Order Section */
+    .order-section .online-form .col-xs-6 {
+        width: 100%;
+    }
+
+    .order-section-1 a.order-now {
+        padding: 10px 20px;
+    }
+
+    .order-section-1 a.free-delivery {
+        padding: 8px 20px;
+    }
+
+    /* - Gallery Section */
+    .gallery-section .col-xs-6,
+    .portfolio-list li.wide {
+        width: 100%;
+    }
+
+    .gallery-column-3 .col-md-4.col-sm-4.col-xs-6,
+    .gallery-column-4 .col-md-3.col-sm-3.col-xs-6 {
+        width: 100%;
+    }
+
+    /* - Blog Post */
+    .author-content span::before {
+        display: none;
+    }
+
+    .comment-section .media-heading span::before {
+        display: none;
+    }
+
+    .comment-section .media-heading a {
+        float: left;
+    }
+
+    .comment-section .media-heading span, .comment-section .media-heading a {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .blog-post .entry-content blockquote {
+        padding: 13px 15px 20px 50px;
+    }
+
+    .blog-post .entry-content blockquote i {
+        left: 5px;
+    }
+
+    .blog-post .entry-content blockquote span {
+        font-size: 12px;
+    }
+
+    /* - Menu Section 1 */
+    .menu-section-1 .menu-box-1 {
+        padding: 14px 20px 16px 155px;
+    }
+
+    .menu-section-1 .menu-box-1 img {
+        max-width: 130px;
+    }
+
+    .menu-section-1 .menu-box-1 h5 {
+        float: none;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .menu-section-1 .menu-box-1 a {
+        padding: 10px 30px;
+    }
+
+    .menu-section-1 .menu-box-1 h3 {
+        display: block;
+    }
+
+    .menu-section-1 .menu-box-1 span {
+        margin-left: 0;
+    }
+
+    .menu-section-1 .menu-box-1 p {
+        margin-top: 5px;
+    }
+
+    /* - Contact Us 1 */
+    .contact-us-1 .col-xs-6.contact-content {
+        width: 100%;
+    }
+}
+
+/* - max-width: 360 */
+@media (max-width: 370px) {
+
+    /* - Photo Slider 1 */
+    .photo-slider-1 .slider-content {
+        background-color: transparent;
+    }
+
+    /* - Photo Slider */
+    .photo-slider .carousel-caption {
+        top: 48%;
+    }
+
+    /* - Festival Section */
+    .festival-section .festival-content h5 {
+        font-size: 15px;
+    }
+
+    .festival-section .festival-content {
+        margin: 0 0 40px;
+    }
+
+    /* - Menu Section */
+    .menu-section .menu-box p {
+        line-height: 20px;
+    }
+
+    /* - Team Section */
+    .team-section .carousel-control {
+        top: 38%;
+    }
+
+    /* - Menu Section 1 */
+    .menu-section-1 .menu-box-1 p {
+        line-height: 20px;
+    }
+
+    /* - Order Section */
+    .order-section-1 a.order-now {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .order-section-1 a.free-delivery {
+        padding: 6px;
+        font-size: 10px;
+    }
+
+    .content-block-hover h3 {
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .content-block-hover p {
+        margin-top: 10px;
+        line-height: 18px;
+    }
+
+    /* - Video Section */
+    .video-link-list .col-xs-6.video-links {
+        width: 100%;
+    }
+}
