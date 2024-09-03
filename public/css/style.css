@@ -81,6 +81,18 @@ a {
 	outline: 0 !important;
 }
 
+/* ---Input Number--- */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* - Input Number */
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
 /* - Padding/Margin */
 .no-padding {
 	padding: 0;
@@ -943,7 +955,7 @@ main, footer {
 }
 
 .header-main .cart>li>a {
-	background-color: #f88c91;
+	/* background-color: #f88c91; */
 	padding: 10px 35px;
 	font-size: 12px;
 	font-weight: 600;

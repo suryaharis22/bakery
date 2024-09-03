@@ -1,5 +1,6 @@
 // #region constants
 
+import DetailProductCtrl from "@/controller/DetailProductCtrl";
 import { useRouter } from "next/router";
 
 // #endregion
@@ -17,7 +18,7 @@ const DetailProduct = (DetailProduct) => {
 
     return (
         <main className="site-main page-spacing">
-            <h1>Detail Product: {router.query.id} </h1>
+            <DetailProductCtrl />
         </main>
     );
 }

@@ -16,20 +16,6 @@ export default function Home() {
 
         {/* <div className="section-padding"></div> */}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         {/* <div className="subscribe-section container-fluid" id="subscribe-section">
 
           <div className="container">

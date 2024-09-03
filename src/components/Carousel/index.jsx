@@ -1,6 +1,13 @@
 import Link from "next/link";
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { animate } from 'motion';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
-const Carousel = (Carousel) => {
+const Carousel = () => {
     const imageSlide = [
         {
             src: "images/slider-1.jpg",
@@ -26,32 +33,52 @@ const Carousel = (Carousel) => {
             title2: "as a way of Life",
             url: "/"
         }
-    ]
+    ];
+
+    const handleSlideChange = (swiper) => {
+        const activeSlide = swiper.slides[swiper.activeIndex];
+        const title = activeSlide.querySelector('.carousel-caption > h3');
+        const subTitle = activeSlide.querySelector('.carousel-caption > p');
+        const btnCaption = activeSlide.querySelector('.carousel-caption > button');
+
+        if (title) {
+            animate(title, { opacity: [0, 1], transform: ['translate(200px, -200px)', 'translate(0, 0)'] }, { duration: 0.8 });
+        }
+        if (subTitle) {
+            animate(subTitle, { opacity: [0, 1], transform: ['translate(-200px, 200px)', 'translate(0, 0)'] }, { duration: 0.6 });
+        }
+        if (btnCaption) {
+            animate(btnCaption, { opacity: [0, 1], transform: ['translate(0, 300px)', 'translate(0, 0)'] }, { duration: 0.8 });
+        }
+    };
+
     return (
         <div className="photo-slider container-fluid no-padding">
-
-            <div id="main-carousel" className="carousel slide carousel-fade" data-ride="carousel">
-                <div role="listbox" className="carousel-inner">
-                    {imageSlide.map((item, index) => {
-                        return (
-                            <div className={`item ${index === 0 ? "active" : ""}`} key={index}>
-                                <img width="1920" height="1030" alt="slider" src={item.src} />
+            <div className="header-carousel">
+                <Swiper
+                    modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    navigation
+                    pagination={{ clickable: true }}
+                    scrollbar={{ draggable: true }}
+                    autoplay={{ delay: 3000, disableOnInteraction: false }}
+                    onSwiper={(swiper) => handleSlideChange(swiper)}
+                    onSlideChange={(swiper) => handleSlideChange(swiper)}
+                >
+                    {imageSlide.map((slide, index) => (
+                        <SwiperSlide key={index}>
+                            <Link href={slide.url}>
+                                <img src={slide.src} alt={slide.title1} title={`${slide.title1} ${slide.title2}`} />
                                 <div className="carousel-caption">
-                                    <img data-animation="animated pulse" src="images/slider-ic.png" alt="slider-ic" width="121" height="124" />
-                                    <p data-animation="animated bounceInLeft">{item.title1}</p>
-                                    <p data-animation="animated bounceInRight">{item.title2}</p>
-                                    <Link title="Read More" href={item.url} data-animation="animated bounceInUp">Read More</Link>
+                                    <h3 >{slide.title1}</h3>
+                                    <p >{slide.title2}</p>
+                                    <button >Shop Now</button>
                                 </div>
-                            </div>
-                        )
-                    })}
-                    <div className="left carousel-control" href="#main-carousel" role="button" data-slide="prev">
-                        <i className="fa fa-caret-left" aria-hidden="true"></i>
-                    </div>
-                    <di className="right carousel-control" href="#main-carousel" role="button" data-slide="next">
-                        <i className="fa fa-caret-right" aria-hidden="true"></i>
-                    </di>
-                </div>
+                            </Link>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
             </div>
         </div>
     );

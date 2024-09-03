@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { SlBasket } from "react-icons/sl";
+
 const TopBar = () => {
     return (
         <header className="header-main container-fluid no-padding">
@@ -18,18 +21,19 @@ const TopBar = () => {
                                 Bakers</h3></a>
                         </div>
                         <div className="add-to-cart">
-                            <div className="menu-search">
+                            {/* <div className="menu-search">
                                 <div id="sb-search" className="sb-search">
                                     <form>
                                         <input className="sb-search-input" placeholder="Enter your search term..." type="text" value="" name="search" id="search" />
-                                        <button className="sb-search-submit"><i className="fa fa-search"></i></button>
+                                        <Link href="/shopping-cart" className="sb-search-submit"><SlBasket size={20} /></Link>
                                         <span className="sb-icon-search"></span>
                                     </form>
                                 </div>
-                            </div>
+                            </div> */}
                             <ul className="cart">
                                 <li>
-                                    <a aria-expanded="true" aria-haspopup="true" data-toggle="dropdown" id="cart" className="btn dropdown-toggle" title="Order Online" href="#">Order Online</a>
+                                    {/* <a aria-expanded="true" aria-haspopup="true" data-toggle="dropdown" id="cart" className="btn dropdown-toggle" title="Order Online" href="#">order</a> */}
+                                    <Link href="/shopping-cart"><SlBasket size={20} /></Link>
                                 </li>
                             </ul>
                         </div>
