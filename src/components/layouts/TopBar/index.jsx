@@ -16,9 +16,9 @@ const TopBar = () => {
                                 <span className="icon-bar"></span>
                                 <span className="icon-bar"></span>
                             </button>
-                            <a className="navbar-brand" href="index.html" title="Logo"><h3>
+                            <Link className="navbar-brand" href="/" title="Logo"><h3>
                                 {/* <img src="images/logo.png" alt="logo" />  */}
-                                Bakers</h3></a>
+                                Bakers</h3></Link>
                         </div>
                         <div className="add-to-cart">
                             {/* <div className="menu-search">
