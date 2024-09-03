@@ -1,7 +1,9 @@
 import Link from "next/link";
+import { useState } from "react";
 import { SlBasket } from "react-icons/sl";
 
 const TopBar = () => {
+    const [navIsOpen, setNavIsOpen] = useState(false);
     return (
         <header className="header-main container-fluid no-padding">
 
@@ -10,7 +12,7 @@ const TopBar = () => {
                 <div className="container">
                     <nav className="navbar ow-navigation">
                         <div className="navbar-header">
-                            <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <button onClick={() => setNavIsOpen(!navIsOpen)} type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                                 <span className="sr-only">Toggle navigation</span>
                                 <span className="icon-bar"></span>
                                 <span className="icon-bar"></span>
@@ -37,7 +39,7 @@ const TopBar = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div id="navbar" className="navbar-collapse collapse navbar-right">
+                        <div id="navbar" className={`navbar-collapse ${navIsOpen ? "collapse" : ""} navbar-right`}>
                             <ul className="nav navbar-nav">
                                 <li className="dropdown active">
                                     <Link href="/" title="Portfolio" className="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Home</Link>
