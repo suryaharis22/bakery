@@ -39,7 +39,7 @@ const TopBar = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div id="navbar" className={`navbar-collapse ${navIsOpen ? "collapse" : ""} navbar-right`}>
+                        <div id="navbar" className={`navbar-collapse ${navIsOpen ? "" : "collapse"} navbar-right`}>
                             <ul className="nav navbar-nav">
                                 <li className="dropdown active">
                                     <Link href="/" title="Portfolio" className="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Home</Link>
