@@ -40,10 +40,10 @@ const TopBar = () => {
                         <div id="navbar" className="navbar-collapse collapse navbar-right">
                             <ul className="nav navbar-nav">
                                 <li className="dropdown active">
-                                    <a href="index.html" title="Portfolio" className="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+                                    <Link href="/" title="Portfolio" className="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Home</Link>
                                     <i className="ddl-switch fa fa-angle-down"></i>
                                     <ul className="dropdown-menu">
-                                        <li><a href="index-2.html" title="Portfolio grid">Home 1</a></li>
+                                        <li><Link href="/" title="Portfolio grid">Home 1</Link></li>
                                     </ul>
                                 </li>
                                 <li className="dropdown">
